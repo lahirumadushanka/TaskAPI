@@ -12,5 +12,7 @@ namespace TaskAPI.Services.Todos
         public List<Todo> GetAllTodos(int authorId);
 
         public Todo GetTodo(int authorId, int id);
+
+        public Todo AddTodo(int authorId, Todo todo);
     }
 }
