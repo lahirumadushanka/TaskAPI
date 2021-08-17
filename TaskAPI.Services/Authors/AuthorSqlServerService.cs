@@ -53,5 +53,16 @@ namespace TaskAPI.Services.Authors
 
             return _context.Authors.Find(author.Id);
         }
+
+        public void UpdateAuthor(Author author)
+        {
+            _context.SaveChanges();
+        }
+
+        public void DeleteAuthor(Author author)
+        {
+            _context.Remove(author);
+            _context.SaveChanges();
+        }
     }
 }

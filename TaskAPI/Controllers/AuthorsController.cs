@@ -56,5 +56,32 @@ namespace TaskAPI.Controllers
 
             return CreatedAtRoute("GetAuthor", new { id = authorForReturn.Id }, authorForReturn);
         }
+
+        [HttpPut("{id}")]
+        public ActionResult UpdateAuthor(int id, UpdateAuthorDto author)
+        {
+            var updatingAuthor = _service.GetAuthor(id);
+
+            if (updatingAuthor is null)
+                return NotFound();
+
+            _mapper.Map(author, updatingAuthor);
+            _service.UpdateAuthor(updatingAuthor);
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteAuthor(int id)
+        {
+            var deletingAuthor = _service.GetAuthor(id);
+
+            if (deletingAuthor is null)
+                return NotFound();
+
+            _service.DeleteAuthor(deletingAuthor);
+            return NoContent();
+
+        }
     }
 }

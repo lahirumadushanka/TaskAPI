@@ -18,6 +18,7 @@ namespace TaskAPI.Services.Profiles
                 opt => opt.MapFrom(src => $"{src.AddressNo}, {src.Street}, {src.City}"));
 
             CreateMap<CreateAuthorDto, Author>();
+            CreateMap<UpdateAuthorDto, Author>();
         }
 
     }
