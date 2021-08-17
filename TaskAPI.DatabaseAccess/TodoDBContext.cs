@@ -23,10 +23,10 @@ namespace TaskAPI.DatabaseAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Author>().HasData(
-                new Author {Id = 1, FullName="Lahiru Madushanka", AddressNo= "No 260/8", Street="Ginigallanda", City="Hungama" },
-                new Author { Id = 2, FullName = "Manoshi Ramanayake", AddressNo = "No 300/8", Street = "Kelum Uyana", City = "Doranagoda" },
-                new Author { Id = 3, FullName = "Nansara Piyumal", AddressNo = "No 255/4", Street = "Watareka", City = "Galle" },
-                new Author { Id = 4, FullName = "Nimal Premarathne", AddressNo = "No 27/2", Street = "udapita", City = "deldeniya" });
+                new Author {Id = 1, FullName="Lahiru Madushanka", AddressNo= "No 260/8", Street="Ginigallanda", City="Hungama", JobRole = "Developer" },
+                new Author { Id = 2, FullName = "Manoshi Ramanayake", AddressNo = "No 300/8", Street = "Kelum Uyana", City = "Doranagoda", JobRole = "Cloud Assistant" },
+                new Author { Id = 3, FullName = "Nansara Piyumal", AddressNo = "No 255/4", Street = "Watareka", City = "Galle", JobRole = "Machanical Engineer" },
+                new Author { Id = 4, FullName = "Nimal Premarathne", AddressNo = "No 27/2", Street = "udapita", City = "deldeniya", JobRole = "Teacher" });
 
             modelBuilder.Entity<Todo>().HasData(new Todo[] {
             new Todo{

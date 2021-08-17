@@ -31,7 +31,7 @@ namespace TaskAPI.Controllers
             var myTodos = _todoService.GetAllTodos(authorId);
 
             var mappedTodos = _mapper.Map<ICollection<TodoDto>>(myTodos);
-            return Ok(myTodos);
+            return Ok(mappedTodos);
         }
 
 
