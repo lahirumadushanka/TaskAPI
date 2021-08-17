@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI\\TaskAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\TaskAPI.DatabaseAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\TaskAPI.DatabaseAccess.csproj",
+        "projectName": "TaskAPI.DatabaseAccess",
+        "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\TaskAPI.DatabaseAccess.csproj",
+        "packagesPath": "C:\\Users\\lahir\\.nuget\\packages\\",
+        "outputPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj": {
+                "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj",
+        "projectName": "TaskAPI.Models",
+        "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj",
+        "packagesPath": "C:\\Users\\lahir\\.nuget\\packages\\",
+        "outputPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\TaskAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\TaskAPI.Services.csproj",
+        "projectName": "TaskAPI.Services",
+        "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\TaskAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\lahir\\.nuget\\packages\\",
+        "outputPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\TaskAPI.DatabaseAccess.csproj": {
+                "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.DatabaseAccess\\TaskAPI.DatabaseAccess.csproj"
+              },
+              "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj": {
+                "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Models\\TaskAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI\\TaskAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI\\TaskAPI.csproj",
+        "projectName": "TaskAPI",
+        "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI\\TaskAPI.csproj",
+        "packagesPath": "C:\\Users\\lahir\\.nuget\\packages\\",
+        "outputPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\TaskAPI.Services.csproj": {
+                "projectPath": "D:\\backup\\antler\\.net core\\TaskAPI\\TaskAPI.Services\\TaskAPI.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

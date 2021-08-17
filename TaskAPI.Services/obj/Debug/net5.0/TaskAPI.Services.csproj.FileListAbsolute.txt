@@ -1,0 +1,17 @@
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.Services.deps.json
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.Services.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\ref\TaskAPI.Services.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.Services.pdb
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.Models.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.Models.pdb
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.csproj.AssemblyReference.cache
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.AssemblyInfoInputs.cache
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.AssemblyInfo.cs
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.csproj.CoreCompileInputs.cache
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.csproj.CopyComplete
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\ref\TaskAPI.Services.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\obj\Debug\net5.0\TaskAPI.Services.pdb
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.DatabaseAccess.dll
+D:\backup\antler\.net core\TaskAPI\TaskAPI.Services\bin\Debug\net5.0\TaskAPI.DatabaseAccess.pdb
